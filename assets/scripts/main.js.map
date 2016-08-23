@@ -1,0 +1,1 @@
+{"version":3,"sources":["_front-page.js"],"names":["window","$","hasClass","console","log","jQuery"],"mappings":"CAAA,SAAAA,EAAAC,GAEAA,EAAA,QAAAC,SAAA,SACAC,QAAAC,IAAA,UAIAJ,OAAAK","file":"main.js","sourcesContent":["(function(window, $) {\n\n\tif (!$('body').hasClass('home')) return;\n\tconsole.log(\"BOOTY\");\n\n\n\n})(window, jQuery);"],"sourceRoot":"/source/"}
