@@ -31,7 +31,7 @@
 	  		var pos = makePoisson(settings);
 	  		poissons.push(pos);
 	  	}
-	  	// p.frameRate(10);
+	  	p.frameRate(10);
 	  };
 
 	  p.draw = function() {
