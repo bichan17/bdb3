@@ -38,8 +38,18 @@ h6 {
 }
 
 a {
-	color: inherit;
+	// color: inherit;
+	color: $teal;
 	text-decoration: none;
+	position: relative;
+	&:hover{
+		text-decoration: underline;
+	}
+	// &:after{
+	// 	content: '>';
+	// 	position: absolute;
+	// 	right: -1rem;
+	// }
 }
 
 ul, ol {

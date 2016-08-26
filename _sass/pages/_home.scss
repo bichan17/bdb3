@@ -1,0 +1,32 @@
+body.page-home{
+	.page-wrapper{
+		height: 100%;
+	}
+	.eb-logo{
+		font-size: 0.8rem;
+    line-height: 0.9;
+    margin: 0 auto 2rem auto;
+    width: 218px;
+   	color: $gray;
+	}
+	.content-wrapper{
+		background-color: rgba(0, 0, 0, 0.4);
+		// background-color: red;
+	}
+	.hello{
+		p{
+			margin-bottom: 1.5rem;
+		}
+		ul{
+			margin-top: 2rem;
+		}
+		li{
+			a{
+				color: $gray;
+			}
+			&:before{
+				color: $pink;
+			}
+		}
+	}
+}

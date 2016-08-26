@@ -5,6 +5,8 @@
 @import "_sass/utility/_variables.scss";
 @import "_sass/utility/_mixins.scss";
 @import "_sass/base/_reset.scss";
-@import "_sass/base";
-@import "_sass/layout";
-@import "_sass/syntax-highlighting";
+@import "_sass/base/_font.scss";
+@import "_sass/base/_base.scss";
+@import "_sass/layouts/_page.scss";
+@import "_sass/layouts/_post.scss";
+@import "_sass/pages/_home.scss";

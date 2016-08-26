@@ -35,7 +35,7 @@ gulp.task('styles:style', function() {
 gulp.task('scripts:dependencies', function() {
   return gulp.src([
       './bower_components/jquery/dist/jquery.min.js',
-      './bower_components/p5.js/lib/p5.min.js'
+      './bower_components/p5.js/lib/p5.js'
     ])
     .pipe(sourcemaps.init())
     .pipe(concat('libraries.js'))

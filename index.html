@@ -1,24 +1,27 @@
 ---
-layout: default
+layout: home
 page-name: home
 ---
 
-<div class="home">
+<div id="poisson" class="sketch"></div>
+<div class="home page-content vertical-center">
+	<div class="content-wrapper">
 
-  <h1 class="page-heading">Posts</h1>
+	  <div class="ascii eb-logo">
+	    {% include eb-logo.txt %}
+	  </div>
+	  <div class="hello">
+	  	<p>Hi, how are you?<br><br>I'm Eric Bichan, a coder and maker based in Brooklyn N.Y.</p>
+	  	<a href="/work">Here is some of my work ></a>
+	  	<ul>
+	  		<li><a href="mailto:eric.bichan@gmail.com">eric.bichan@gmail.com</a></li>
+	  		<li><a href="https://github.com/bichan17">github / bichan17</a></li>
+	  		<li><a href="https://twitter.com/eric_bichan">twitter / @eric_bichan</a></li>
+	  		<li><a href="https://twitter.com/eric_bichan">soundcloud / ericbichan</a></li>
+	  	</ul>
+	  </div>
+	</div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  
 
 </div>
