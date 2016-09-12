@@ -1,0 +1,8 @@
+---
+layout: post
+type: blog
+title:  "Blog Item"
+date:   2016-08-23 22:57:53 -0400
+categories: 
+---
+hello world

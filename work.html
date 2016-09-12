@@ -3,12 +3,15 @@ layout: default
 page-name: work
 ---
 
-<div class="work">
+<article class="work page-content">
 
-  <h1 class="page-heading">Work</h1>
+  <div class="ascii work-txt">
+    {% include work.txt %}
+  </div>
 
   <ul class="post-list">
     {% for post in site.posts %}
+      {% if post.type == 'work' %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -16,7 +19,8 @@ page-name: work
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
       </li>
+      {% endif %}
     {% endfor %}
   </ul>
 
-</div>
+</article>
