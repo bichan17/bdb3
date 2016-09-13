@@ -1,4 +1,7 @@
 .site-header{
 	max-width: $max-width;
 	margin: 0 auto;
+	position: relative;
+	z-index: 10;
+	background-color: rgba(0, 0, 0, 0.4);
 }

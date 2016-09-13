@@ -2,25 +2,36 @@
 layout: default
 page-name: work
 ---
-
+<div id="poisson" class="sketch"></div>
 <article class="work page-content">
 
   <div class="ascii work-txt">
     {% include work.txt %}
   </div>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      {% if post.type == 'work' %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+  <section class="websites">
+    <h2 class="category-heading">Websites</h2>
+    {% for item in site.portfolio %}
+      {% if item.type == 'work' %}
+      <div class="project">
+        <h4 class="project-title">
+          <a target="_blank" href="{{ item.project-link }}">{{ item.title }}</a>
+        </h4>
+        {{ item.content | markdownify}}
+      </div>
       {% endif %}
     {% endfor %}
-  </ul>
-
+  </section>
+  <section class="websites">
+    <h2 class="category-heading">Fun Stuff</h2>
+    {% for item in site.portfolio %}
+      {% if item.type == 'fun' %}
+      <div class="project">
+        <h4 class="project-title">
+          <a target="_blank" href="{{ item.project-link }}">{{ item.title }}</a>
+        </h4>
+        {{ item.content | markdownify}}
+      </div>
+      {% endif %}
+    {% endfor %}
+  </section>
 </article>

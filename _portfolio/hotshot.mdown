@@ -1,0 +1,9 @@
+---
+layout: post
+type: work
+detailpage: false
+project-link: http://www.teamhotshot.com/
+title:  "TeamHOTSHOT"
+---
+
+TeamHOTSHOT is a wordpress site paired with a shopify store

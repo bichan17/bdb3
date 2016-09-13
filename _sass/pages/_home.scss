@@ -24,13 +24,5 @@ body.page-home{
 			color: $teal;
 			font-weight: bold;
 		}
-		li{
-			a{
-				color: $gray;
-			}
-			&:before{
-				color: $pink;
-			}
-		}
 	}
 }

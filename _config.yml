@@ -24,3 +24,8 @@ exclude:
 
 # Build settings
 markdown: kramdown
+
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/

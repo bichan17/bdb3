@@ -1,0 +1,11 @@
+---
+layout: post
+type: work
+detailpage: false
+project-link: http://www.esportshall.com/
+title:  "Esports Hall of Fame"
+---
+
+The Esports Hall website is an upcoming website I am currently developing while working with the [ESL][esl]. Celebrating Esports history and accomplishments, the hall of fame will be completed by Fall of 2016.
+
+[esl]: http://www.eslgaming.com/

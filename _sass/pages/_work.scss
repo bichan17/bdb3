@@ -1,5 +1,31 @@
 body.page-work{
-	.page-content{
-		max-width: 27.5rem;
+	.work-txt{
+		max-width: 19.3rem;
+		margin: 0 auto;
+		font-size: .8rem;
+    line-height: .9;
+    @media screen and (max-width: $breakpoint) {
+    	font-size: 0.5rem;
+    	max-width: 13.7rem;
+    }
 	}
+	.page-content{
+	}
+	.category-heading{
+		font-size: 1.875rem;
+		font-weight: bold;
+		margin-top: 3.525rem;
+		margin-bottom: 2.5rem;
+		font-style: italic;
+	}
+	.project-title{
+		font-size: 1.325rem;
+		text-decoration: underline;
+		color: $teal;
+		margin-bottom: 0.8125rem;
+	}
+	.project{
+		margin-bottom: 2.1875rem;
+	}
+	
 }
