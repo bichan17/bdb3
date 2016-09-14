@@ -1,7 +1,20 @@
 .site-header{
-	max-width: $max-width;
-	margin: 0 auto;
-	position: relative;
-	z-index: 10;
-	background-color: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	.wrapper{
+		max-width: $max-width;
+		margin: 0 auto;
+		padding: 0 1.5rem;
+
+		.header-content{
+			border-bottom: 1px solid white;
+			background-color: rgba(0, 0, 0, 0.8);
+			padding: 1rem 0;
+
+		}
+
+	}
 }
