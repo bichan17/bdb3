@@ -4,6 +4,7 @@ type: work
 detailpage: false
 project-link: http://www.teamhotshot.com/
 title:  "TeamHOTSHOT"
+date: "june 2016"
 ---
 
 TeamHOTSHOT is a wordpress site paired with a shopify store

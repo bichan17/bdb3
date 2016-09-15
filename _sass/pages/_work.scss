@@ -19,13 +19,22 @@ body.page-work{
 		font-style: italic;
 	}
 	.project-title{
-		font-size: 1.325rem;
-		text-decoration: underline;
-		color: $teal;
-		margin-bottom: 0.8125rem;
+		margin-bottom: 1rem;
+		a{
+			font-size: 1.325rem;
+			text-decoration: underline;
+			color: $teal;
+
+		}
+		.date{
+			color: darken($gray, 20%);
+		}
 	}
 	.project{
 		margin-bottom: 2.1875rem;
+	}
+	ul{
+		margin-top: 0.8125rem;
 	}
 	
 }

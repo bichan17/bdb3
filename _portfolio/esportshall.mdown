@@ -4,8 +4,9 @@ type: work
 detailpage: false
 project-link: http://www.esportshall.com/
 title:  "Esports Hall of Fame"
+date: "august 2016"
 ---
 
-The Esports Hall website is an upcoming website I am currently developing while working with the [ESL][esl]. Celebrating Esports history and accomplishments, the hall of fame will be completed by Fall of 2016.
+The Esports Hall is a website made for the [ESL][esl] that honors all of the greatest Esports athletes and influencers. It was built with Wordpress and is responsive.
 
 [esl]: http://www.eslgaming.com/
