@@ -1,6 +1,7 @@
 _site
 .sass-cache
 .jekyll-metadata
+assets/media
 
 
 # Created by https://www.gitignore.io/api/bower,composer,grunt,node,osx,sass,sublimetext,vim,wordpress

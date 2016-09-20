@@ -7,6 +7,5 @@ title:  "W Hotels FIT"
 date: "june 2015"
 ---
 
-W Hotels Fit is a promotional microsite I developed while working at [Domani Studios][domani]. It's available in 9 languages and features parallax scrolling on the background images along with many complex type treatments done in CSS.
+W Hotels Fit is a promotional microsite I developed while working at Domani Studios. It's available in 9 languages and features parallax scrolling on the background images along with many complex type treatments done in CSS.
 
-[domani]: http://domanistudios.com/

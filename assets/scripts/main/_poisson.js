@@ -2,7 +2,6 @@
 
 	if (!$('#poisson')[0]) return;
 	
-	console.log('poisson!');
 
 	var sketch = function( p ) {
 
@@ -21,7 +20,6 @@
 	  var dotsPerDraw = 6;
 
 	  p.setup = function() {
-	  	console.log('setup!');
 	  	var canvas = p.createCanvas(p.windowWidth, p.windowHeight);
 	  	canvas.parent("poisson");
 	  	p.background(0,0,0);
@@ -35,18 +33,13 @@
 	  };
 
 	  p.draw = function() {
-	    console.log('draw');
 	    p.background(0,0,0);
 
 	    for (var b = 0; b < poissons.length; b++) {
 
-	    	
-
 	    	var dotDrawSlopeDown = p.floor((poissons[b].dotCount/poissons[b].DOT_LIMIT)*10);
-	    	// console.log(dotsPerDraw-dotDrawSlopeDown);
 
 	    	if (dotsPerDraw-dotDrawSlopeDown < 0) {
-	    		console.log('stop');
 	    		p.noLoop();
 	    	}
 	    	for (var total = 0; total < dotsPerDraw-dotDrawSlopeDown; total++) {

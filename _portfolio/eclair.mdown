@@ -6,9 +6,5 @@ project-link: http://lemeridieneclair.com/
 title:  "Eclair"
 date: "December 2014"
 ---
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
+Le Merdien Eclair is a promotional microsite I developed while working at Domani Studios. It's available in 9 languages and features rich social media integration along with tools for booking a stay at the hotels.
