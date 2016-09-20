@@ -13,10 +13,15 @@ body.page-work{
 	}
 	.category-heading{
 		font-size: 1.875rem;
-		font-weight: bold;
 		margin-top: 3.525rem;
 		margin-bottom: 2.5rem;
+		font-weight: bold;
 		font-style: italic;
+		@media screen and (max-width: $breakpoint) {
+			font-size: 1.4rem;
+			margin-top: 3rem;
+			margin-bottom: 2rem;
+		}
 	}
 	.project-title{
 		margin-bottom: 1rem;
@@ -24,16 +29,25 @@ body.page-work{
 			font-size: 1.325rem;
 			text-decoration: underline;
 			color: $teal;
+			@media screen and (max-width: $breakpoint) {
+				font-size: 1rem;
+			}
 
 		}
 		.date{
 			color: darken($gray, 20%);
+			@media screen and (max-width: $breakpoint) {
+				display: none;
+			}
 		}
 	}
 	.project{
 		margin-bottom: 2.1875rem;
 		a{
 			text-decoration: underline;
+		}
+		@media screen and (max-width: $breakpoint) {
+			font-size: 0.8rem;
 		}
 	}
 	ul{
