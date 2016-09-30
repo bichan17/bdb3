@@ -10,11 +10,13 @@ body.page-home{
 		font-size: 0.8rem;
     line-height: 0.9;
     margin: 0 auto 2rem auto;
-    width: 218px;
+    width: 241px;
    	color: $gray;
+   	letter-spacing: 1px;
 	}
 	.content-wrapper{
-		background-color: rgba(0, 0, 0, 0.4);
+		padding: 1.5rem;
+		background-color: rgba(0, 0, 0, 0.6);
 		// background-color: red;
 	}
 	.hello{
