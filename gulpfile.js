@@ -73,7 +73,7 @@ gulp.task('scripts:main', function() {
     .pipe(gulp.dest('assets/scripts/'));
 });
 
-gulp.task('jekyll:build', () => {
+gulp.task('jekyll:build', function(){
   const jekyll = child.spawn('jekyll', ['build',
     '--incremental',
     '--drafts'
@@ -87,7 +87,7 @@ gulp.task('jekyll:build', () => {
   jekyll.stderr.on('data', jekyllLogger);
 });
 
-gulp.task('jekyll:watch', () => {
+gulp.task('jekyll:watch', function(){
   const jekyll = child.spawn('jekyll', ['build',
     '--watch',
     '--incremental',
