@@ -74,10 +74,7 @@ gulp.task('scripts:main', function() {
 });
 
 gulp.task('jekyll:build', function(){
-  const jekyll = child.spawn('jekyll', ['build',
-    '--incremental',
-    '--drafts'
-  ]);
+  const jekyll = child.spawn('jekyll', ['build']);
   const jekyllLogger = (buffer) => {
     buffer.toString()
       .split(/\n/)
@@ -89,9 +86,7 @@ gulp.task('jekyll:build', function(){
 
 gulp.task('jekyll:watch', function(){
   const jekyll = child.spawn('jekyll', ['build',
-    '--watch',
-    '--incremental',
-    '--drafts'
+    '--watch'
   ]);
   const jekyllLogger = (buffer) => {
     buffer.toString()
