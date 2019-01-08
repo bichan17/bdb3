@@ -9,7 +9,7 @@ page-name: work
     {% include work.txt %}
   </div>
   <section class="websites">
-    <h2 class="category-heading">Websites</h2>
+    <h2 class="category-heading">Selected Websites</h2>
     {% assign sorted = (site.portfolio | sort: 'date') | reverse %}
     {% for item in sorted %}
       {% if item.type == 'work' %}
@@ -36,5 +36,11 @@ page-name: work
       </div>
       {% endif %}
     {% endfor %}
+  </section>
+  <section class="connect">
+    <div class="ascii mail-txt">
+      {% include mail.txt %}
+    </div>
+    <a href="mailto:eric.bichan@gmail.com" target="_blank">eric.bichan@gmail.com</a>
   </section>
 </article>
