@@ -9,14 +9,13 @@ page-name: work
     {% include work.txt %}
   </div>
   <section class="websites">
-    <h2 class="category-heading">Selected Websites</h2>
+    <h2 class="category-heading">Selected Projects</h2>
     {% assign sorted = (site.portfolio | sort: 'date') | reverse %}
     {% for item in sorted %}
       {% if item.type == 'work' %}
       <div class="project">
         <h4 class="project-title">
           <a target="_blank" href="{{ item.project-link }}">{{ item.title }}</a>
-          <span class="date">- {{ item.date | date: '%b, %Y' }}</span>
         </h4>
         {{ item.content | markdownify}}
       </div>
@@ -30,7 +29,6 @@ page-name: work
       <div class="project">
         <h4 class="project-title">
           <a target="_blank" href="{{ item.project-link }}">{{ item.title }}</a>
-          <span class="date">- {{ item.date | date: '%b, %Y' }}</span>
         </h4>
         {{ item.content | markdownify}}
       </div>
