@@ -4,7 +4,7 @@ type: work
 detailpage: false
 project-link: https://superflowerstudio.com/
 title:  "Superflower Studio"
-date: "Feburary 2019"
+date: "November 2019"
 ---
 
 This site is an ecommerce platform built to showcase and sell a new line of designer wallpaper. Due to its image heavy nature, a lot of performance considerations had to be made to allow the site to support high resolution files across a wide variety of devices. Addtionally, a lot of work had been placed on making sure the site felt smooth and visual effects looking great no matter how the site was being viewed. Be sure to check out the [product detail pages][pdp]{:target="_blank"} at least! Content entry is based on a modular archetecture which allows the client to easily create pages with new layouts when new wallpaper collections are released.

@@ -15,7 +15,7 @@ date: "December 2017"
 - [St. Regis Hotels][sr]{:target="_blank"}
 - [Element Hotels][el]{:target="_blank"}
 
-The Marriott Brand Ecosystem project is an extendable component based reusable framework built on top of Wordpress to power the relaunching of Marriott brand sites and make production faster and more easily maintained. This project is currently ongoing at BBH NY.
+The Marriott Brand Ecosystem project is an extendable component based reusable framework built on top of Wordpress to power the relaunching of Marriott brand sites and make production faster and more easily maintained. This project is currently ongoing at BBH NY and I contributed to it heavily during my time there.
 
 [lc]: https://the-luxury-collection.starwoodhotels.com/
 [aloft]: http://aloft-hotels.starwoodhotels.com/
